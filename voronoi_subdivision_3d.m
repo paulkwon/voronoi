@@ -1,6 +1,6 @@
 function voronoi_subdivision_3d
 close all
-addpath(fullfile(getenv('ywtoolbox'),'ocTree'));
+addpath('ocTree');
 
 n = 3;
 o = rand(3,n); r = 0.05+0.1*rand(1,n);

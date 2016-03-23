@@ -1,6 +1,6 @@
 function world = voronoi_subdivision_2d
 close all
-addpath(fullfile(getenv('ywtoolbox'),'ocTree'));
+addpath('ocTree');
 
 n = 7;
 o = rand(2,n); r = 0.02+0.05*rand(1,n);
